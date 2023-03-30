@@ -41,8 +41,11 @@ char *ft_scanfile(int fd)
 	char *buffer;
 
 	buffer = ft_calloc(sizeof(char),(BUFFER_SIZE + 1));
-	if (!buffer || BUFFER_SIZE < 0)
+	if (BUFFER_SIZE < 0)
+		{
+		free(buffer);
 		return(NULL);
+		}
 	read(fd, buffer, BUFFER_SIZE);
 	buffer[BUFFER_SIZE] = '\0';
 	return(buffer);
