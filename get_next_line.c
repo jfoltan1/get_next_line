@@ -41,7 +41,7 @@ char *ft_nextline (char *buff)
 	}
 	next = ft_calloc(((ft_strlen(buff)) - i + 1), sizeof(char));
 	i++;
-	while (buff[i] != '\0')
+	while (buff[i])
 	{
 		next[a] = buff[i];
 		i++;
@@ -119,6 +119,5 @@ char	*get_next_line(int fd)
 		return (NULL);
 	line = ft_get_line(buff);
 	buff = ft_nextline(buff);
-
 	return (line);
 }
