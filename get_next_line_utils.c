@@ -6,10 +6,11 @@
 /*   By: jfoltan <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 14:57:24 by jfoltan           #+#    #+#             */
-/*   Updated: 2023/04/26 15:04:43 by jfoltan          ###   ########.fr       */
+/*   Updated: 2023/04/27 15:49:44 by jfoltan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "get_next_line_bonus.h"
+
+#include "get_next_line.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

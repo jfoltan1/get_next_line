@@ -6,9 +6,10 @@
 /*   By: jfoltan <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 14:57:20 by jfoltan           #+#    #+#             */
-/*   Updated: 2023/04/26 15:09:51 by jfoltan          ###   ########.fr       */
+/*   Updated: 2023/04/27 15:49:06 by jfoltan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "get_next_line.h"
 
 char	*ft_nextline(char *buff)
